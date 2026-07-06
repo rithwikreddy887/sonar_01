@@ -1,4 +1,8 @@
-password = "admin123"
+import os
+
+username = os.getenv("username") # Compliant
+password = os.getenv("password") # Compliant
+usernamePassword = 'user=%s&password=%s' % (username, password) # Compliant
 
 
 def divide(a, b):
