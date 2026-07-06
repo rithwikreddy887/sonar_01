@@ -18,7 +18,10 @@ def calculate():
 
     print(divide(num1, num2))
 
+def multiply(a, b):
+    return a * b
 
+    
 def duplicate_one():
 
     total = 0
